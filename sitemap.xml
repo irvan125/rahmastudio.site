@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://rahmastudio.site/</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/portfolio-single</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/blog-single</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/portfolio-2</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/portfolio-3</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/blog-grid</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/portfolio-single4</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/portfolio-single2</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://rahmastudio.site/portfolio-single3</loc>
+       <lastmod>2026-07-28T22:00:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.2621</priority>
+  </url>
+</urlset>
