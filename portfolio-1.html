@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-
-<!--
- // WEBSITE: #!
- // TWITTER: #!
- // FACEBOOK: #!
- // GITHUB: #!
--->
-
-<html lang="zxx">
+<html lang="id">
 
 <head>
   <meta charset="utf-8">
-  <title>Thomson-Minimal Portfolio Temaplate</title>
+  <title>Portofolio Karya & Project | Rahma Studio - Jasa Logo & Website Profesional</title>
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 
-  <!-- mobile responsive meta -->
+  <!-- Mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Lihat galeri hasil karya pembuatan logo, desain website profesional, dan proyek identitas visual branding dari Rahma Studio.">
+  <meta name="keywords" content="portofolio rahma studio, hasil karya jasa logo, contoh desain website, contoh branding bisnis, galeri desain grafis">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://rahmastudio.site/portfolio-1.html">
+
+  <!-- Open Graph / Facebook / WhatsApp SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rahmastudio.site/portfolio-1.html">
+  <meta property="og:title" content="Portofolio Karya & Project | Rahma Studio">
+  <meta property="og:description" content="Jelajahi galeri portofolio desain logo dan pengembangan website profesional karya Rahma Studio.">
+  <meta property="og:image" content="https://rahmastudio.site/images/logo-rahma-studio.png">
+
+  <!-- Twitter SEO -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://rahmastudio.site/portfolio-1.html">
+  <meta name="twitter:title" content="Portofolio Karya & Project | Rahma Studio">
+  <meta name="twitter:description" content="Jelajahi galeri portofolio desain logo dan pengembangan website profesional karya Rahma Studio.">
+  <meta name="twitter:image" content="https://rahmastudio.site/images/logo-rahma-studio.png">
+
+  <!-- Structured Data (Schema.org JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Portofolio Rahma Studio",
+    "url": "https://rahmastudio.site/portfolio-1.html",
+    "description": "Galeri portofolio desain logo, website, dan proyek kreatif Rahma Studio.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rahma Studio",
+      "logo": "https://rahmastudio.site/images/logo-rahma-studio.png"
+    }
+  }
+  </script>
+
   <!-- theme meta -->
   <meta name="theme-name" content="thomson" />
-  
+
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
@@ -37,232 +66,261 @@
 </head>
 
 <body>
-  
 
-<!-- Header Start --> 
+  <!-- Navigation Start -->
+  <nav class="navbar navbar-expand-lg main-nav" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://rahmastudio.site/images/logo-rahma-studio.png" alt="Rahma Studio Logo" class="img-fluid" style="max-height: 75px; width: auto;">
+      </a>
 
-<nav class="navbar navbar-expand-lg  main-nav " id="navbar">
-	<div class="container">
-	  <a class="navbar-brand" href="index.html">
-	  	<img src="images/logo.png" alt="" class="img-fluid">
-	  </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="ti-align-justify"></span>
+      </button>
 
-	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="ti-align-justify"></span>
-	  </button>
-  
-		  <div class="collapse navbar-collapse" id="navbarsExample09">
-			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+      <div class="collapse navbar-collapse" id="navbarsExample09">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 
-			  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown01">
-						<li><a class="dropdown-item" href="about.html">About Me</a></li>
-						<li><a class="dropdown-item" href="about-us.html">About Us</a></li>
-					</ul>
-			  </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="about.html">About Me</a></li>
+              <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+            </ul>
+          </li>
 
-			  <li class="nav-item dropdown active">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="portfolio-1.html">Portfolio Masonary</a></li>
-						<li><a class="dropdown-item" href="portfolio-2.html">Portfolio lightbox</a></li>
-						<li><a class="dropdown-item" href="portfolio-3.html">Portfolio 2 column</a></li>
-						<li><a class="dropdown-item" href="portfolio-single.html">Portfolio Details</a></li>
-					</ul>
-			  </li>
-			   <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown02">
+              <li><a class="dropdown-item active" href="portfolio-1.html">Portfolio Masonry</a></li>
+              <li><a class="dropdown-item" href="portfolio-2.html">Portfolio Lightbox</a></li>
+              <li><a class="dropdown-item" href="portfolio-3.html">Portfolio 2 Column</a></li>
+              <li><a class="dropdown-item" href="portfolio-single.html">Portfolio Details</a></li>
+            </ul>
+          </li>
 
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  </li>
-			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</div>
-</nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown05">
+              <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
+              <li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
+              <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+            </ul>
+          </li>
 
-<!-- Header Close --> 
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation End -->
 
+  <!-- Header Banner Start -->
+  <section class="section page-header bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <h1 class="font-weight-bold mb-3">Solusi <span class="text-color">Desain Kreatif</span> untuk Bisnis Anda</h1>
+          <p class="lead">Berikut adalah beberapa hasil karya proyek pembuatan logo, branding, dan pengembangan website profesional yang telah kami selesaikan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Header Banner End -->
 
+  <!-- Portfolio Section Start -->
+  <section class="section portfolio">
+    <div class="container">
+      
+      <!-- Filter Buttons -->
+      <div class="row mb-5">
+        <div class="col-12">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn active">
+              <input type="radio" name="shuffle-filter" value="all" checked="checked" />Semua Proyek
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="branding" />Desain Logo & Branding
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="illustration" />Web Development
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="photo" />Grafis & Promosi
+            </label>
+          </div>
+        </div>
+      </div>  
 
-<section class="section banner pb-lg-0">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-8 text-center">
-				<h2>I provide <span class="text-color">Design Solutions.</span> <br>My work is presented here, check them below.</h2>
-			</div>
-		</div>
-	</div>
-</section>
+      <!-- Masonry Gallery Wrapper -->
+      <div class="row shuffle-wrapper portfolio-gallery">
+        
+        <!-- Item 1 -->
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["design","branding"]'>
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/1.jpg" alt="Desain Logo Branding" class="img-fluid w-100 d-block">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <a class="overlay-content" href="portfolio-single.html">
+                    <h5 class="mb-0 text-white">Identity Design</h5>
+                    <p class="text-white-50">Desain Logo & Branding</p>
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
 
-<section class=" portfolio ">
-	<div class="container">
-		<div class="row mb-5 justify-content-center">
-	      	<div class="col-10 text-center">
-		        <div class="btn-group btn-group-toggle " data-toggle="buttons">
-		          <label class="btn active ">
-		            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
-		          </label>
-		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
-		          </label>
-		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="branding" />branding
-		          </label>
-		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="illustration" />Web Development
-		          </label>
-		           <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="photo" />Photography
-		          </label>
-		        </div>
-	      	</div>
-    	</div>	
+        <!-- Item 2 -->
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["illustration"]'>
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/bag.jpg" alt="Web Application Development" class="img-fluid w-100 d-block">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <a class="overlay-content" href="portfolio-single.html">
+                    <h5 class="mb-0 text-white">E-Commerce Web</h5>
+                    <p class="text-white-50">Web Development</p>
+                  </a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
 
-		<div class="row shuffle-wrapper portfolio-gallery">
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
-		      	<div class="position-relative inner-box">
-		          <div class="image position-relative ">
-	               <img src="images/portfolio/1.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0 ">Painting</h5>
-	                      <p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-		      </div>
-	      </div>
+        <!-- Item 3 -->
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["illustration","design"]'>
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/3.jpg" alt="Business Company Profile" class="img-fluid w-100 d-block">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <a class="overlay-content" href="portfolio-single.html">
+                    <h5 class="mb-0 text-white">Company Profile</h5>
+                    <p class="text-white-50">Web Development</p>
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
-	        <div class="position-relative inner-box" >
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/bag.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Web app</h5>
-	                      <p>Development</p>
-	                    </a>
-		                </div> 
-		            </div>
-		        </div>
-		      </div>
-	      </div>
+        <!-- Item 4 -->
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["design"]'>
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/m-3.jpg" alt="UI UX App Design" class="img-fluid w-100 d-block">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <a class="overlay-content" href="portfolio-single.html">
+                    <h5 class="mb-0 text-white">UI/UX Mobile App</h5>
+                    <p class="text-white-50">UI/UX Design</p>
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Business </h5>
-	                      <p>marketing</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+        <!-- Item 5 -->
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["branding","photo"]'>
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/bottle.jpg" alt="Kemasan & Packaging Design" class="img-fluid w-100 d-block">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <a class="overlay-content" href="portfolio-single.html">
+                    <h5 class="mb-0 text-white">Packaging & Logo</h5>
+                    <p class="text-white-50">Branding</p>
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/m-3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Portfolio</h5>
-	                      <p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+        <!-- Item 6 -->
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["photo","design"]'>
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/6.jpg" alt="Modern Agency Website" class="img-fluid w-100 d-block">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <a class="overlay-content" href="portfolio-single.html">
+                    <h5 class="mb-0 text-white">Landing Page SEO</h5>
+                    <p class="text-white-50">Web Development</p>
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/bottle.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                       <h5 class="mb-0">Modern web</h5>
-	                      	<p>Seo</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Section End -->
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/6.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                       <h5 class="mb-0">Agency web</h5>
-	                      	<p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
-	    </div>
-	</div>
-</section>
+  <!-- Call to Action Start -->
+  <section class="section bg-dark text-white text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="text-white mb-3">Tertarik Membuat Logo atau Website Seperti Ini?</h2>
+          <p class="lead mb-4 text-white-50">Konsultasikan ide bisnis Anda bersama tim profesional Rahma Studio.</p>
+          <a href="https://wa.me/628568714355" target="_blank" class="btn btn-main">
+            <i class="ti-comments mr-2"></i>Konsultasi via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to Action End -->
 
-<section class="footer">
-	<div class="container">
-		<div class="row ">
-			<div class="col-lg-6">
-				<p class="mb-0">Copyrights © 2019. Designed & Developed by <a target="_blank" href="themefisher.com" class="text-white">Themefisher</a> <br> Distributed by <a target="_blank" href="https://themewagon.com" class = "text-white">ThemeWagon</a></p>
-			</div>
-			<div class="col-lg-6">
-				<div class="widget footer-widget text-lg-right mt-5 mt-lg-0">
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item"><a href="#!" target="_blank"><i class="ti-facebook mr-3"></i></a>
-						</li>
-						<li class="list-inline-item"><a href="#!" target="_blank"><i class="ti-twitter mr-3"></i></a>
-						</li>
-						<li class="list-inline-item"><a href="#!" target="_blank"><i class="ti-github mr-3"></i></a></li>
-						<li class="list-inline-item"><a href="#!" target="_blank"><i class="ti-pinterest mr-3"></i></a></li>
-						<li class="list-inline-item"><a href="#!" target="_blank"><i class="ti-dribbble mr-3"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- jQuery -->
-<script src="plugins/jQuery/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="plugins/bootstrap/bootstrap.min.js"></script>
-<script src="plugins/aos/aos.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="plugins/shuffle/shuffle.min.js"></script>
-<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="plugins/animated-text/animated-text.js"></script>
-<script src="plugins/counto/apear.js"></script>
-<script src="plugins/counto/counTo.js"></script>
+  <!-- Footer Start -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="mb-0">Copyrights © 2026. Designed & Developed by 
+            <a href="https://rahmastudio.site/" class="text-white">Rahmastudio.site</a>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="widget footer-widget text-lg-right mt-5 mt-lg-0">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/rahmastudio.site" target="_blank" aria-label="Instagram">
+                  <i class="ti-instagram mr-3"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer End -->
 
- <!-- Google Map -->
-<script src="plugins/google-map/map.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> 
-<!-- Main Script -->
-<script src="js/script.js"></script>
+  <!-- jQuery -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+  <script src="plugins/shuffle/shuffle.min.js"></script>
+  <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="plugins/animated-text/animated-text.js"></script>
+  <script src="plugins/counto/apear.js"></script>
+  <script src="plugins/counto/counTo.js"></script>
 
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+
+</body>
 </html>
